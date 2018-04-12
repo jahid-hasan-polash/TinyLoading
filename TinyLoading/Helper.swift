@@ -8,7 +8,7 @@
 
 import UIKit
 
-public enum IndicatorStyle {
+public enum IndicatorPosition {
     case center, top, bottom
 }
 
@@ -18,14 +18,14 @@ public enum AppearanceType {
 
 public extension UIView {
     
-    public func startLoading(indicatorPosition: IndicatorStyle = .center,
+    public func startLoading(indicatorPosition: IndicatorPosition = .center,
                              backgroundAlpha: CGFloat = 1,
                              indicatorStyle: UIActivityIndicatorViewStyle = .whiteLarge,
                              appearAnimationDuration: CGFloat = 0.2,
                              appearanceType: AppearanceType = .Default,
                              blurEffect: UIBlurEffect = UIBlurEffect(style: .dark))
     {
-        let loadingView = LoadingView(frame: bounds, indicatorStyle: indicatorPosition)
+        let loadingView = LoadingView(frame: bounds, indicatorPosition: indicatorPosition)
         loadingView.tag = 105
         loadingView.blurView.alpha = backgroundAlpha
         loadingView.activityIndicator.activityIndicatorViewStyle = indicatorStyle

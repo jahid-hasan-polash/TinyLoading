@@ -21,9 +21,9 @@ class LoadingView: UIView {
         setupView()
     }
     
-    public convenience init(frame: CGRect, indicatorStyle: IndicatorStyle) {
+    public convenience init(frame: CGRect, indicatorPosition: IndicatorPosition) {
         self.init(frame: frame)
-        setupView(indicatorStyle)
+        setupView(indicatorPosition)
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -31,11 +31,11 @@ class LoadingView: UIView {
         setupView()
     }
     
-    private func setupView(_ indicatorStyle: IndicatorStyle = .center) {
+    private func setupView(_ indicatorPosition: IndicatorPosition = .center) {
         blurView.frame = frame
-        if indicatorStyle == .center {
+        if indicatorPosition == .center {
             activityIndicator.center = center
-        } else if indicatorStyle == .top {
+        } else if indicatorPosition == .top {
             activityIndicator.center = CGPoint(x: frame.width/2, y: 24)
         } else {
             activityIndicator.center = CGPoint(x: frame.width/2, y: frame.height-24)
