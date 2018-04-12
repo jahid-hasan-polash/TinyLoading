@@ -1,0 +1,10 @@
+framework module TinyLoading {
+  umbrella header "TinyLoading.h"
+
+  export *
+  module * { export * }
+}
+
+module TinyLoading.__Swift {
+    exclude header "TinyLoading-Swift.h"
+}

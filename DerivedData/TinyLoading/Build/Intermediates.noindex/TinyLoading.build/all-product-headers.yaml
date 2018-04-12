@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/DerivedData/TinyLoading/Build/Products/Debug-iphonesimulator/TinyLoading.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TinyLoading-Swift.h",
+          'external-contents': "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/DerivedData/TinyLoading/Build/Products/Debug-iphonesimulator/TinyLoading.framework/Headers/TinyLoading-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TinyLoading.h",
+          'external-contents': "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/TinyLoading/TinyLoading.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/DerivedData/TinyLoading/Build/Products/Debug-iphonesimulator/TinyLoading.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/DerivedData/TinyLoading/Build/Intermediates.noindex/TinyLoading.build/Debug-iphonesimulator/TinyLoading.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "afa2db990d2a5fbf5181425e6e655be1"
+build_time: [1523534118, 107357000]
+inputs:
+  "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/TinyLoading/LoadingView.swift": [1523534089, 0]
+  "/Users/jahidhasanpolash/Documents/code/Personal/TinyLoading/TinyLoading/Helper.swift": [1523534116, 0]

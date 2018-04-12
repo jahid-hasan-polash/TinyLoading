@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9C06661EBA9891BD49E24EE540E483C32C184C90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9C06661EBA9891BD49E24EE540E483C32C184C90" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B19C1848-43AE-4A08-804F-54E3AA40209E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9C06661EBA9891BD49E24EE540E483C32C184C90" : "code\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TinyLoading",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Personal\/TinyLoading\/TinyLoading.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@gitlab.com:infancyit\/SleepCycle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C06661EBA9891BD49E24EE540E483C32C184C90"
+    }
+  ]
+}
