@@ -26,10 +26,13 @@ Here `IndicatorPosition` can be `.top`, `.bottom` and `.center`(default).
 And `AppearanceType` can be `.None `, `.FromLeft`, `.FromRight`, `.FromTop`, `.FromBottom`, `.CrossDisolve` and `.Default`.  
 All the parameters are optional. So pass only which you want to change.
 
-# Support
+## Support
 Make any upgradation and place a pull request.
 
-# Author
+## License
+[MIT license](https://opensource.org/licenses/MIT).
+
+## Author
 Jahid Hasan Polash  
 jahidhasanpolash@gmail.com  
 InfancyIT (https://infancyit.com/)
